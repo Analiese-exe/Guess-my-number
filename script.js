@@ -2,8 +2,6 @@
 console.log(document.querySelector('.message').textContent);
 
 let secretNumber = Math.trunc(Math.random()*30)+1;
-
-document.querySelector('.number').textContent = secretNumber;
 let score = 10;
 let highscore = 0;
 document.querySelector('.score').textContent = score;
